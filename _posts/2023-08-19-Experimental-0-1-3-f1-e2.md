@@ -7,9 +7,9 @@ Here it is, the first post about the experimental stuff! Below there are some de
 
 ## Library updates
 
-With every experimental release, I will try to synchronize versions of all dependencies to their current stable. With that release, Textual is aligned to 0.33.0. Please, note that the 0.32.0 version has breaking changes. Also, for some features (see below) Thymus requires Netmiko now. With all of that, I set a Python version more precisely in the package requirements, it is 3.8.1 now.
+With every experimental release, I will try to synchronize versions of all dependencies to their current stable. With that release, Textual is aligned to __0.33.0__. Please, note that the 0.32.0 version has __breaking changes__. Also, for some features (see below) Thymus requires Netmiko now. With all of that, I set a Python version more precisely in the package requirements, it is 3.8.1 now.
 
-For every new experimental release pay attention to the requirements.txt file!
+_For every new experimental release pay attention to the requirements.txt file!_
 
 ## NX-OS support
 
@@ -23,7 +23,7 @@ Using Thymus on a daily basis, I must admit it's not always convenient to connec
 
 In the Open dialog window now there are two tabs. By default, the From file tab is shown and it offers you the usual experience. The From network tab has several controls that allow you to set up a connection with a selected network device. You have to choose the platform on the left because it is not automatically deduced. After the connection is established, Thymus fetches a running configuration via this connection, closes the connection, and opens a configuration.
 
-A fetched configuration is only present in memory! To save it on a disk use the `show | save ...` combination.
+_A fetched configuration is only present in memory! To save it on a disk use the `show | save ...` combination._
 
 ## Contains sub-command
 
